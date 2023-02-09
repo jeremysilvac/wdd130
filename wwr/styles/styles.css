@@ -229,4 +229,91 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+    .p1, .p2, .p5 {
+        display: none;
+    }
+    .q1, .a1, .q2, .a2, .q3, .a3, .q4, .a4, .q5, .a5, .q6, .a6 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/*FAQ specific css*/
+.faqheader {
+    background-color: rgba(91, 110, 33, 1);
+}
+#faqtitle{
+    text-align: center;
+}
+.questions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.q1 {
+    grid-column: 1/3;
+}
+.a1 {
+    grid-column: 1/3;
+}
+.p1 {
+    grid-column: 3/5;
+    grid-row: 1/3;
+    align-self: top;
+    justify-self: right;
+}
+.p1 img {
+    border: 10px solid rgba(91, 110, 33, 0.85);
+}
+.q2 {
+    grid-column: 3/5;
+}
+.a2 {
+    grid-column: 3/5;
+}
+.p2 {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    justify-self: left;
+}
+.p2 img {
+    border: 10px solid rgba(91, 110, 33, 0.85);
+}
+.q3 {
+    grid-column: 1/5;
+}
+.a3 {
+    grid-column: 1/5;
+}
+.q4 {
+    grid-column: 1/5;
+}
+.a4 {
+    grid-column: 1/5;
+}
+.q5 {
+    grid-column: 1/3;
+}
+.a5 {
+    grid-column: 1/3;
+}
+.p5 {
+    grid-column: 3/5;
+    grid-row: 9/11;
+    justify-self: right;
+}
+.p5 img {
+    border: 10px solid rgba(91, 110, 33, 0.85);
+}
+.q6 {
+    grid-column: 1/5;
+}
+.a6 {
+    grid-column: 1/5;
+}
+.p6 img {
+    box-sizing: border-box;
+    border: 10px solid rgba(91, 110, 33, 0.85);
+    width: 100%
 }
