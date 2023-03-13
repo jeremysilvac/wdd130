@@ -87,6 +87,9 @@ main section {
     text-decoration: none;
     color: #A69CAC;
 }
+.p-link:hover {
+    background-color: #F0F0C9;
+}
 .introduction-grid {
     display: grid;
     grid-template-columns: 1fr;
