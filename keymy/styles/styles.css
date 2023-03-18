@@ -14,9 +14,13 @@ body {
 }
 /*This is the header/nav css*/
 header {
+    position: fixed;
     display: grid;
+    top: 0;
     grid-template-columns: 150px auto;
     background-color: #F0F0C9;
+    width: 100%;
+    max-width: 1600px;
 }
 nav {
     display: flex;
@@ -39,7 +43,7 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
-nav a:hover {
+.navbar a:hover {
     opacity: .8;
     background-color: #A69CAC;
     color: #444639;
@@ -48,7 +52,7 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
-    margin-top: 0px;
+    margin-top: 95px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -123,6 +127,7 @@ main section {
     box-shadow: 5px 5px 10px #3c3e3c;
     border: solid 5px #F0F0C9;
 }
+
 .part-img1:hover {
     opacity: 1;
     transform: scale(1.1);
