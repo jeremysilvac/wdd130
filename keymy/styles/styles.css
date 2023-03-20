@@ -195,3 +195,122 @@ footer p a:hover{
 footer .social img {
     padding-top: 15px;
 }
+
+/* CSS for page 2 aka customization*/
+
+
+.parts-title {
+    display: grid;
+    margin-top: 100px;
+}
+.parts-custom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 10px;
+}
+/* Keyboard Sizes & Layouts */
+.div1 {
+    grid-column: 1/4;
+    grid-row: 1/6;
+}
+.class1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+.explanation1 {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.explanation1 a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+.image1a {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    width: 40%;
+}
+.image1b {
+    grid-column: 3/4;
+    grid-row: 4/6;
+    width: 40%;
+}
+/* Keycaps */
+.div2 {
+    grid-column: 1/4;
+    grid-row: 6/12;
+}
+.class2 {
+    grid-column: 1/4;
+    grid-area: 6/7;
+}
+.explanation2a {
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+.explanation2b {
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+.explanation2c {
+    grid-column: 1/2;
+    grid-row: 9/10;
+}
+.explanation2d {
+    grid-column: 1/2;
+    grid-row: 10/11;
+}
+.explanation2d a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+.image2 {
+    grid-column: 3/4;
+    grid-row: 7/10;
+    align-self: right;
+    justify-self: center;
+    width: 50%;
+}
+/* Switches */
+.div3 {
+    grid-column: 1/4;
+    grid-row: 12/18;
+}
+
+.explanation3d a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+/* Stabilizers */
+.div4 {
+    grid-column: 1/4;
+    grid-row: 18/22;
+}   
+
+.explanation4c a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+/* Community */
+.div5 {
+    grid-column: 1/4;
+    grid-row: 22/26;
+}
+
+.explanation5a a, .explanation5b a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+
+.explanation1 a:hover, .explanation2d a:hover, .explanation3d a:hover, .explanation4c a:hover, .explanation5a a:hover, .explanation5b a:hover {
+    background-color: #F0F0C9;
+}
+
+.extra-picture-custom1, .extra-picture-custom2, .extra-picture-custom3 {
+    width: 30%;
+    height: 66%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
