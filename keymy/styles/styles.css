@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     color: lightgrey;
-    line-height: 1.25em;
 }
 /*This is the header/nav css*/
 header {
@@ -344,21 +343,24 @@ footer .social img {
     grid-row: 18/22;
 }   
 .explanation4a {
-
+    grid-column: 1/5;
 }
-.explanation4b {
-    width: 50%;
-    float: left;
-}
-.explanation4c {
-    width: 40%;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.explanation4c a {
+.explanation4a a {
     text-decoration: none;
     color: #A69CAC;
+}
+.explanation4a a:hover {
+    background-color: #F0F0C9;
+}
+.explanation4b {    
+    grid-column: 1/5;
+}
+.explanation4b a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+.explanation4b a:hover {
+    background-color: #F0F0C9;
 }
 /* Community */
 .div5 {
