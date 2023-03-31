@@ -439,3 +439,11 @@ footer .social img {
     opacity: 1;
     transform: scale(1.1);
 }
+
+.thanks a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+.thanks a:hover {
+    background-color: #F0F0C9;
+}
