@@ -390,3 +390,52 @@ footer .social img {
     opacity: 1;
     transform: scale(1.1);
 }
+
+/* CSS for the vendors page */
+
+.vendor-intro {
+    text-align: center;
+}
+.vendor-intro a, .vendor-usa a, .vendor-canada a {
+    text-decoration: none;
+    color: #A69CAC;
+}
+.vendor-intro a:hover, .vendor-usa a:hover, .vendor-canada a:hover {
+    background-color: #F0F0C9;
+}
+.vendor-usa {
+    float: left;
+    width: 50%;
+}
+.vendor-usa h3 {
+    text-decoration: underline;
+}
+.vendor-usa div{
+    text-align: left;
+    margin: 10px;
+}
+.vendor-canada {
+    float: right;
+    width: 50%;
+}
+.vendor-canada h3 {
+    text-decoration: underline;
+}
+.vendor-canada div {
+    text-align: left;
+    margin: 10px;
+}
+.bottom-img-vendor {
+    width: 30%;
+    height: 66%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3c3e3c;
+    border: solid 5px #F0F0C9;
+}
+.bottom-img-vendor:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
